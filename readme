@@ -1,0 +1,8 @@
+Description : c'est une application qui permet de traduire un text en une langue, elle contient une bibliothèque de langue,
+que l'on peut afficher pour savoir d'en laquelle traduire, elle permet aussi d'expliquer des text assez complexe.
+
+
+Documentation de L'API : 
+POST /translate_text/ : traduit le text qui lui est fournie en une langue demander par l'utilisteur
+POST /explain_text/ : explique le text qui lui est transmit 
+GET /list_languages/ : nous affiche la liste de langue disponible dans l'API
