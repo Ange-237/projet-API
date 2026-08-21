@@ -1,1 +1,10 @@
 # projet-API
+
+Description : c'est une application qui permet de traduire un texte en une langue, elle contient une bibliothèque de langues,
+Que l'on peut afficher pour savoir de laquelle traduire, elle permet aussi d'expliquer des textes assez complexes.
+
+
+Documentation de L'API : 
+POST /translate_text/ : traduit le texte qui lui est fourni en une langue demandée par l'utilisateur
+POST /explain_text/ : explique le texte qui lui est transmis 
+GET /list_languages/ : nous affiche la liste de langues disponibles dans l'API
